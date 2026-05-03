@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/sw_fondo.jpg);
+    color: white;
+}
+:root{
+    --color1:#f5e959;
+}
+#principio{
+    width: 80%;
+    margin: 25px auto;
+}
+#cabecera{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#cabecera img{
+    width:200px;
+    margin:20px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+#contenido1{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.episodio{
+    border: 2px solid white;
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+}
+.episodio img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.episodio h3{
+    color: var(--color1);
+    margin:10px;
+    text-align: center;
+
+}
+.episodio p{
+    text-align:justify;
+}
+#contenido2{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contenido3{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pie{
+    text-align: center;
+    margin: 55px;
+    border: 2px solid white;
+}
+#pie p{
+    padding: 2px;
+    margin: 10px;
+}
